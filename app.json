@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Radia",
+    "slug": "radia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "radia",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "requireFullLargestScreenSize": false
+    },
+    "android": {
+      "package": "com.conduction.radia",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#030303"
+      },
+      "edgeToEdgeEnabled": true,
+      "softwareKeyboardHidesActivity": true
+    },
+    "plugins": [
+      "expo-camera"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

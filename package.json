@@ -1,0 +1,27 @@
+{
+  "name": "radia",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Conduction instrument: body posture vectors (camera, gyro) built on @conduction/medulla",
+  "main": "host/App.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@conduction/medulla": "^0.1.0",
+    "expo": "^58.0.23",
+    "expo-camera": "^15.0.0",
+    "expo-file-system": "^15.0.0",
+    "react": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-bare-kit": "^0.0.0",
+    "react-native-sensors": "^2.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.0"
+  }
+}
